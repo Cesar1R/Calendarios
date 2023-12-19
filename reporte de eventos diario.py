@@ -16,9 +16,9 @@ from googleapiclient.errors import HttpError
 
 SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
 
-calendarios_id = [( [], "clinicamedicadeporte2@gmail.com"), #Dr. Covarrubias Mata
-                    ([], "hdp8a0duqcvg6bvq4414jof4cs@group.calendar.google.com"), #Terapias 
-                    ([], "o0h3hnmsm3c1f4ogrnbarq9h7g@group.calendar.google.com")] #Dr. Covarrubias Arroyo
+calendarios_id = [(--------------------------------)]
+
+
 def get_events_for_day(service, year, month, day, calendar_id):
     # Obtener el primer día del mes
     start_date = f"{year}-{month:02d}-01T00:00:00Z"
