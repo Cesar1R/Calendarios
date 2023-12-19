@@ -40,9 +40,7 @@ def graficar_desde_csv(ruta_archivo):
     plt.show()
 
 # Ruta del archivo CSV
-archivo_csv = "/home/yuki/Documents/Clinica/Descargas/Citas_completas_2023.csv"
+archivo_csv = "---------------------------------"
 
 # Llama a la función para graficar
 graficar_desde_csv(archivo_csv)
-
-archivo = "/home/yuki/Documents/Clinica/Descargas/Citas_completas_2023.csv"
