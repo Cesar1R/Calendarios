@@ -13,9 +13,7 @@ from googleapiclient.errors import HttpError
 SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
 
 # Credenciales de la cuenta de servicio
-#credentials = service_account.Credentials.from_service_account_file(
-#   '/home/yuki/Documents/Clinica/credentials.json', scopes=['https://www.googleapis.com/auth/calendar']
-#)
+
 
 if os.path.exists("token.json"):
     creds = Credentials.from_authorized_user_file("token.json", SCOPES)
